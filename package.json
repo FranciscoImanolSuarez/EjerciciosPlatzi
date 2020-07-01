@@ -1,0 +1,11 @@
+{
+  "name": "nunca-pares-de-programar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Francisco Imanol Suarez <imanolsuarez98@gmail.com>",
+  "license": "MIT"
+}
