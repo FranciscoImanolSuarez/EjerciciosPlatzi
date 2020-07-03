@@ -12,7 +12,7 @@ readline.question('Por favor ingresa el primer numero ', n1 => {
    readline.question('Por favor ingrese el segundo numero', n2 => {
     const mayor = Math.max(n1,n2)    
     const diferencia = Math.abs(n1 - n2)
-    console.log(`El numero Mayor es ${mayor}, y la diferencia es de ${diferencia}`)
+    console.log(`El numero Mayor es ${mayor},  ${diferencia != 0 ? `La diferencia es de ${diferencia}`  : 'y los numeros son iguales por lo cual no hay diferencia' }`)
     readline.close();
    })
  });
