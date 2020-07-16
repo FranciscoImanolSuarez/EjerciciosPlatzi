@@ -6,3 +6,15 @@
 // con las repeteciones. ¿El twist? Sólo puedes usar una función recursiva
 // (pro tip: no olvides tu caso base).
 
+let str = prompt('Mensaje a repetir')
+let n = prompt('Numero a repetir')
+
+function repetir (string,x){
+    if (x <= 1) {
+        return string
+    } else {
+        return repetir(string, x-1) + ' ' + string + ' '
+    }
+}
+
+console.log(repetir(str,n))
